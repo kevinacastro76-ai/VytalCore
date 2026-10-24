@@ -1,0 +1,31 @@
+title: "&8Selector de modalidades"
+size: 27
+items:
+  survival:
+    slot: 11
+    material: GRASS_BLOCK
+    name: "&a&lSurvival SemiOP"
+    lore:
+      - "&7Sobrevive y consigue recursos"
+      - ""
+      - "&eClic para conectar"
+    action: "server:survival-semiop"
+  practice:
+    slot: 13
+    material: DIAMOND_SWORD
+    name: "&c&lPractice"
+    lore:
+      - "&7Demuestra tu habilidad PvP"
+      - ""
+      - "&eClic para conectar"
+    action: "server:Zarypvp"
+  oneblock:
+    slot: 15
+    material: GRASS_BLOCK
+    name: "&b&lOneBlock OP"
+    lore:
+      - "&7Comienza desde un solo bloque"
+      - ""
+      - "&eClic para conectar"
+    action: "server:oneblockOp"
+    
