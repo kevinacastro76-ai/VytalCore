@@ -1,0 +1,20 @@
+name: vytalCore
+version: '${version}'
+main: com.vytalcore.VytalCore
+api-version: '1.20'
+author: Vytal Game Studios
+description: Menus configurables y herramientas de lobby en un solo plugin.
+softdepend: [PlaceholderAPI]
+commands:
+  vytalcore:
+    description: Comando principal de vytalCore.
+    usage: /vytalcore <help|reload|menu|editor|setspawn>
+    aliases: [vc, vytal]
+permissions:
+  vytalcore.admin:
+    description: Acceso a la administración de vytalCore.
+    default: op
+  vytalcore.menu:
+    description: Permite abrir los menús de vytalCore.
+    default: true
+    
